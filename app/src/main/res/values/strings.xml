@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">NewsViewer</string>
+    <string name="tab_name">tabs</string>
+
+    <!-- articles provider -->
+    <string-array name="articles">
+        <item>cnbc</item>
+        <item>cnn</item>
+        <item>google-news</item>
+        <item>favourites</item>
+    </string-array>
+
+    <string name="action_delete">Delete</string>
+    <string name="delete_item_btn">Delete</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="delete_confirm_text">Delete this article from favourite?</string>
+    <string name="mark_fav">added to favourites</string>
+    <string name="already">already in favorites</string>
+
+    <string name="prompt_empty">empty</string>
+    <!-- View time formats -->
+    <string name="time_minutes_ago">%d min ago</string>
+    <string name="time_now">just now</string>
+    <string name="time_general">dd MMMM HH:mm</string>
+    <string name="text_bottom">Powered by NewsAPI.org.</string>
+    <string name="splash_title">NewsViewer</string>
+</resources>
