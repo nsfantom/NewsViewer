@@ -2,6 +2,7 @@
 
 To use this app you need [API_KEY](https://newsapi.org/register).
 change app gradle file:
+
 `buildConfigField 'String', 'API_KEY', '"<THIS_IS_YOUR_API_KEY>"'`
 
 To mark article for favourites use LongClick =)
