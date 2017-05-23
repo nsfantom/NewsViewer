@@ -60,7 +60,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.NewsHold
         Glide.with(context).load(article.getUrlToImage())
                 .thumbnail(0.5f)
                 .crossFade()
-                .fitCenter()
+                .centerCrop()
                 .diskCacheStrategy(DiskCacheStrategy.RESULT)
                 .into(holder.urlToImage);
 
