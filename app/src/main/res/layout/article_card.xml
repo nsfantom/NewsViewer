@@ -56,9 +56,10 @@
                 <ImageView
                     android:id="@+id/urlToImage"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scaleType="centerCrop"
-                    android:padding="3dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:padding="4dp"
+                    android:adjustViewBounds="true"
                     card_view:srcCompat="@android:drawable/ic_dialog_info"
                     android:layout_weight="1"/>
                 <FrameLayout
